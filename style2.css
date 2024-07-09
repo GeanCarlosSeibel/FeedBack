@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    max-height: max-content;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #260524, #240940, #027368, #F2AA52);
+    /*background: linear-gradient(45deg, #121126, #272B73, #252759, #F26430, #BF4F45);*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}*/
+
+/*@KeyFrames colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}*/
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 2% 4% 4%;
+}
+
+.postagem {
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    height: 45vh;
+    width: 50vh;
+    border: solid #333 3px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 4% 0% 0% 0%;
+}
+
+.postagem h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.postagem textarea {
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    border: 2px solid #333;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+.btn {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #027368;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #014d45;
+}
+
+.cards-container {
+    background-color: #e0f7fa;
+    width: 120vh;
+    border: solid #333 3px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.feedback {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feedback h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feedback p {
+    font-size: 16px;
+    color: #555;
+}
+
+.footer {
+    margin-top: 272px;
+    background-color: #e0f7fa;
+    color: #292828;
+    padding: 0.3%;
+    text-align: center;
+    font-family: "Montserrat";
+}

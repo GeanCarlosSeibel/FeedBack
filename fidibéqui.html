@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style2.css" />
+
+</head>
+
+<body class="gradient">
+    <div class="cont">
+
+        <form id="cardForm" class="postagem">
+
+            <h1>Feed</h1>
+            <label for="title">Título:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Descrição:</label>
+            <textarea id="description" name="description" placeholder="Digite o conteúdo do seu feed aqui..." required></textarea>
+            
+            <button type="submit" class="btn">Publicar</button>
+
+        </form>
+
+        <div id="cardsContainer" class="cards-container">
+            <!-- Cards vão aparecer aqui -->
+        
+            <div class="feedback">
+                <h3>Usuário Exemplo</h3>
+                <p>Adorei o serviço! A interface é muito amigável e fácil de usar. Continuem com o ótimo trabalho!</p>
+            </div>
+            <div class="feedback">
+                <h3>Carlinhos!</h3>
+                <p>CAVALOS E HOMENS</p>
+            </div>
+
+        </div>
+    </div>
+    <button onclick="limpar()" class="btn">Limpar</button>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Restaurante Carlos e Dalva. Todos os direitos reservados.</p>
+            <p>Endereço: Rua xyz, Cidade Corinthians</p>
+            <p>Email: 2050cozinheirosdiferentes@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
